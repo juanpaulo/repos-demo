@@ -1,2 +1,6 @@
 # Databricks notebook source
-print "Hello, World!"
+print("Hello, World!")
+
+# COMMAND ----------
+
+print("new line")
