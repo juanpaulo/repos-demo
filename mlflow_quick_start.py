@@ -26,3 +26,12 @@ Y = np.array([y]).transpose()
 d = np.concatenate((X, Y), axis=1)
 cols = ['age', 'sex', 'bmi', 'bp', 's1', 's2', 's3', 's4', 's5', 's6', 'progression']
 data = pd.DataFrame(d, columns=cols)
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ## MLflow Quick Start
+
+# COMMAND ----------
+
+
